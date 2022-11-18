@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.flag1{
+    position: relative;
+    height: 400px;
+    width: 600px;
+    overflow: hidden;
+}
+.f1-red{
+    width: 100%;
+    height: 100%;
+    background: red;
+}
+.f1-white1{
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background: white;
+}
+.f1-white2{
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    background: white;
+}
+
+.flag2{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.f2-green{
+    width: 300px;
+    height: 100%;
+    background: green;
+}
+.f2-white{
+    width: 300px;
+    height: 100%;
+    background: white;
+}
+.f2-red{
+    width: 300px;
+    height: 100%;
+    background: red;
+}
+
+.flag3{
+    width: 600px;
+    height: 400px;
+    position: relative;
+}
+.f3-white{
+    height: 133px;
+    width: 100%;
+    background: white;
+}
+.f3-sof-blue1{
+    background: skyblue;
+    height: 133px;
+    width: 100%;
+}
+.f3-sof-blue2 {
+    background: skyblue;
+    width: 100%;
+    height: 133px;
+}
+.flag3 img{
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
